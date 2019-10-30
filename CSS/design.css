@@ -1,6 +1,37 @@
-body{
-    background-image: url('../Images/wow.jpg');
-    background-repeat;
+html {
+height: 100%;
 }
-h1   {color: blue;}
-h2   {color: red;}
+
+body {
+ background-color: indianred;
+
+height: 100%;
+}
+#menu{
+background-color:white;
+width: 80%;
+height: 15%;
+
+}
+
+#container{
+background-color: yellow;
+width: 80%;
+height: 85%;
+display:flex;
+}
+#dash{
+background-color: magenta;
+width: 20%;
+height: 100%;
+}
+#facebook{
+background-color: purple;
+width: 60%;
+height: 10%;
+}
+#inhoud{
+background-color: grey;
+width: 20%;
+height: 10%;
+}
