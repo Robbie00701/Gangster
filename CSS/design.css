@@ -1,30 +1,65 @@
 html {
 height: 100%;
+width: 100%;
 }
 
 body {
- background-color: indianred;
+  background-image: url("VerseBroodjes.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 2400px;
+  
+}
+.text {
 
-height: 100%;
-}
-#menu{
-width: 100%;
-height: 25-%;
+margin-top: 5.5%;
+margin-left: 8%;
+font-weight: 900;
+color: midnightblue;
 
 }
 
-#container{
-background-color: yellow;
-width: 100%;
-height: 75%;
-display:flex;
+
+#pizzas  {
+margin-top: 3%;
+margin-left: 15%;
+
 }
-#dash{
-background-color: black;
-width: 20%;
-height: 100%;
+
+#img {
+
+margin-top: 20%;
+margin-left: 33%;
+
 }
-.kak img {
-    width: auto;
-    height: 100%;
+
+.img {
+margin-right: 24px;
+
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(56, 53, 53);
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: flex;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: bold;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  margin-top: 30px; 
